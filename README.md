@@ -1,7 +1,6 @@
 英文分词、分句
 ================================
 Linux
-
 [![Build Status](https://travis-ci.org/seomoz/simhash-cpp.svg?branch=master)](https://travis-ci.org/seomoz/simhash-cpp)
 
 该语料库利用纯规则的方式，能够对英文进行分词和分局，非常的小巧，仅仅需要依赖boost_regex作为正则包。特别注意的是，这段代码仅仅适合于Linux内核的系统，因为在涉及到utf8编码格式的处理时，用到了locale，别的如mac系统需要对代码做些修改。
